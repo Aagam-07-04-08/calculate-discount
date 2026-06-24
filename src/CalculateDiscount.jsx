@@ -21,9 +21,9 @@ function Calculate({ItemName,DiscountPer,OriginalPrice}){
         <div>
             <h2>SHOP CARD</h2>
             <p>Item-Name: {ItemName}</p>
-            <p>Original Price: {OriginalPrice}</p>
+            <p>Original Price: ${OriginalPrice}</p>
             <p>Discount Percentage: {DiscountPer}</p>
-            <p>Discounted Price: {discountedPrice}</p>
+            <p>Discounted Price: ${discountedPrice}</p>
         </div>
     )
 }
